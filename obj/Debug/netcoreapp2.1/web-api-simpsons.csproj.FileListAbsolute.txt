@@ -1,0 +1,14 @@
+C:\Users\alumno\documents\web-api-simpsons\bin\Debug\netcoreapp2.1\web-api-simpsons.deps.json
+C:\Users\alumno\documents\web-api-simpsons\bin\Debug\netcoreapp2.1\web-api-simpsons.runtimeconfig.json
+C:\Users\alumno\documents\web-api-simpsons\bin\Debug\netcoreapp2.1\web-api-simpsons.runtimeconfig.dev.json
+C:\Users\alumno\documents\web-api-simpsons\bin\Debug\netcoreapp2.1\web-api-simpsons.dll
+C:\Users\alumno\documents\web-api-simpsons\bin\Debug\netcoreapp2.1\web-api-simpsons.pdb
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.csprojAssemblyReference.cache
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.csproj.CoreCompileInputs.cache
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.RazorAssemblyInfo.cache
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.RazorAssemblyInfo.cs
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.AssemblyInfoInputs.cache
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.AssemblyInfo.cs
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.RazorTargetAssemblyInfo.cache
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.dll
+C:\Users\alumno\documents\web-api-simpsons\obj\Debug\netcoreapp2.1\web-api-simpsons.pdb
