@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj": {}
+    "C:\\Users\\alumno\\ValuesControllet\\web-api-simpsons.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj": {
+    "C:\\Users\\alumno\\ValuesControllet\\web-api-simpsons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj",
+        "projectUniqueName": "C:\\Users\\alumno\\ValuesControllet\\web-api-simpsons.csproj",
         "projectName": "web-api-simpsons",
-        "projectPath": "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj",
+        "projectPath": "C:\\Users\\alumno\\ValuesControllet\\web-api-simpsons.csproj",
         "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumno\\documents\\ValuesControllet\\obj\\",
+        "outputPath": "C:\\Users\\alumno\\ValuesControllet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
