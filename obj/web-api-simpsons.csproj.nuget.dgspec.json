@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj": {}
+    "C:\\Users\\jfcar\\Desktop\\ValuesControllet\\web-api-simpsons.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj": {
+    "C:\\Users\\jfcar\\Desktop\\ValuesControllet\\web-api-simpsons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj",
+        "projectUniqueName": "C:\\Users\\jfcar\\Desktop\\ValuesControllet\\web-api-simpsons.csproj",
         "projectName": "web-api-simpsons",
-        "projectPath": "C:\\Users\\alumno\\documents\\ValuesControllet\\web-api-simpsons.csproj",
-        "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alumno\\documents\\ValuesControllet\\obj\\",
+        "projectPath": "C:\\Users\\jfcar\\Desktop\\ValuesControllet\\web-api-simpsons.csproj",
+        "packagesPath": "C:\\Users\\jfcar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jfcar\\Desktop\\ValuesControllet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\jfcar\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"

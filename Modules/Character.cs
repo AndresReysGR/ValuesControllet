@@ -1,7 +1,10 @@
+using System;
+
 namespace web_api_simpsons.Modules
 {
     public class Character
     {
+        Int64 id;
         string firstName;
         string secondName;
         string lastName;
@@ -16,8 +19,9 @@ namespace web_api_simpsons.Modules
         public Character(){}
 
         //nombre de la clase dejas el cursosr y te hce un constructor
-        public Character(string firstName, string secondName, string lastName, int age, int height, int weight, string birthDate, string photo, string jop, string description)
+        public Character(Int64 id, string firstName, string secondName, string lastName, int age, int height, int weight, string birthDate, string photo, string jop, string description)
         {
+            this.id = id;
             this.firstName = firstName;
             this.secondName = secondName;
             this.lastName = lastName;
@@ -53,7 +57,6 @@ namespace web_api_simpsons.Modules
         public string Photo { get => photo; set => photo = value; }
         public string Jop { get => jop; set => jop = value; }
         public string Description { get => description; set => description = value; }
-
-
+        public long Id { get => id; set => id = value; }
     }
 }
