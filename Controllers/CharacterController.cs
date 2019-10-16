@@ -31,12 +31,29 @@ namespace web_api_simpsons.Controllers
             },
         };
 
-        string connectionString = @"data source=DESKTOP-9BNKO6K\SQLEXPRESS; initial catalog=db_simpsons; user id=simpsons; password=1234";
+        string connectionString = @"data source=E321\CITADEL; initial catalog=simpsons; user id=simpsons; password=1234";
 
         [HttpGet("{id}")]
         public Character GetCharacter(int id)
         {
-            return listofCharacters[id];
+            Character character = new Character();
+            SqlConnection conn =new SqlConnection(connectionString);
+            SqlCommand cmd =new SqlCommand($"select * from tbl_character where id = {id}", conn);
+            conn.Open();
+            SqlDataReader reader = cmd.ExecuteReader();
+            while(reader.Read())
+            {
+                character = new Character
+                {
+                    Id = reader.GetInt64(reader.GetOrdinal("id")),
+                    FirstName = reader.GetString(reader.GetOrdinal("firstName")),
+                    SecondName = reader.GetString(reader.GetOrdinal("secondName")),
+                    LastName = reader.GetString(reader.GetOrdinal("lastName")),
+                    Age = reader.GetInt32(reader.GetOrdinal("age"))
+                 
+                };
+            }
+            return character;
         }
 
         [HttpGet]
@@ -56,6 +73,7 @@ namespace web_api_simpsons.Controllers
                     FirstName = reader.GetString(reader.GetOrdinal("firstName")),
                     SecondName = reader.GetString(reader.GetOrdinal("secondName")),
                     LastName = reader.GetString(reader.GetOrdinal("lastName")),
+                    Age = reader.GetInt32(reader.GetOrdinal("age"))
                  
                 };
                 characters.Add(character);
