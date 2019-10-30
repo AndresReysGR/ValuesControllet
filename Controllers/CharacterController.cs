@@ -29,13 +29,13 @@ namespace web_api_simpsons.Controllers
             },
         };
         
-        [HttpGet("{id}")]
+        [HttpPost("{id}")]
         public Character GetCharacter(int id)
         {
             return listofCharacters[id];
         }
 
-        [HttpGet]
+        [HttpPost]
         public List<Character> GetCharacterList()
         {
             return  listofCharacters; 
